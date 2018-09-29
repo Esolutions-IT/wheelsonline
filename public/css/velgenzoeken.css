@@ -1,0 +1,80 @@
+.banner-text {
+    text-align: center;
+    padding: 7em 0 0 0;
+}
+/*-- banner-form--*/
+.book-form   label {
+    font-size:15px;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.book-form label i {
+    font-size: 1em;
+    margin-right: 10px;
+    color: #fd6239;
+}
+.book-form input[type="text"],.book-form input[type="date"],.book-form input[type="time"],.book-form input[type="email"] {
+    width: 100%;
+    color: #9a9797;
+    outline: none;
+    font-size: 0.9em;
+    line-height: 25px;
+    padding: 3px 10px;
+    border: 2px solid #fff;
+    -webkit-appearance: none;
+    margin-bottom: 1em;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.book-form input[type="text"]{
+    border: 2px solid #fff;
+}
+.book-form form input[type="submit"] {
+    text-transform: capitalize;
+    background: #fd6239;
+    color: #FFFFFF;
+    padding: .7em 2em;
+    border: none;
+    font-size: .79em;
+    outline: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 2.4em;
+    -webkit-appearance: none;
+}
+.book-form {
+    background: rgba(12, 12, 12, 0.68);
+    padding: 2em 2em 7em 2em;
+    width: 70%;
+    margin: 3em auto 0;
+}
+.book-form p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: .8em;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: uppercase;
+}
+.book-form select.form-control {
+     outline: none;
+     font-size: 1em;
+     padding: 5px 10px;
+     width: 100%;
+     line-height: 25px;
+     border-radius: 0;
+     background: none;
+     color: #9a9797;
+     border: 2px solid #fff;
+     box-shadow:none!important;
+ }
